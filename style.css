@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #121212;
+  line-height: 1.5;
+  background-image: url(img/bg.png);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/*Header*/
+
+.page {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  background-color: #121212;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(15, 114, 153);
+  text-align: center;
+}
+
+/*Nav*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-link {
+  /* display: inline-block; */
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #121212;
+
+  transition: background-color 0.2s linear;
+}
+
+.nav-link:hover {
+  background-color: #eee;
+}
+
+/*Content*/
+
+.content {
+  width: 800px;
+  padding: 0 20px;
+}
+
+.content-title {
+  font-size: 24px;
+  margin: 0 0 15px;
+  color: #e90c0c;
+}
+
+.content-text {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: rgb(15, 114, 153);
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 200px;
+  background: #eee;
+  padding: 10px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  color: #e90c0c;
+  margin-bottom: 20px;
+}
+
+.sidebar-img {
+  background: #fff;
+}
+
+.sidebar-text {
+  font-size: 12px;
+}
+
+/*Article*/
+
+.article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.article-title {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: rgb(15, 114, 153);
+}
+
+.article-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  text-decoration: underline;
+}
+
+.article-date {
+  color: #a4a4a4;
+  font-size: 12px;
+  display: block;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
